@@ -1,6 +1,7 @@
 import React from "react";
 import AboutSection from "../components/AboutSection";
 import ServicesSection from "../components/ServicesSection";
+import FaqSection from "../components/FaqSection";
 //page components
 
 const AboutUs = () => {
@@ -8,6 +9,7 @@ const AboutUs = () => {
     <React.Fragment>
       <AboutSection />
       <ServicesSection />
+      <FaqSection />
     </React.Fragment>
   );
 };
